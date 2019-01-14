@@ -61,18 +61,17 @@
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+%--------CV STARTS HERE--------------------%
 \begin{document}
 
-
-%----------HEADING-----------------
+%----------HEADING-------------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{http://prankurverma.github.io/resume/}{\Large Prankur Verma}} & Email : \href{mailto:vprankur@gmail.com}{vprankur@gmail.com}\\
   \ Linkedin: \href{https://linkedin.com/in/prankur-verma}{@prankur-verma} & Mobile : +91-8077828826 \\
   \ Github: \href{https://github.com/prankurverma}{@prankurverma}\\
 \end{tabular*}
+%-------------------------------------
 
 %-----------EDUCATION-----------------
 \section{Education}
@@ -87,6 +86,7 @@
       {Dayawati Modi Academy}{Meerut, UP, India}
       {High school CBSE;  CGPA: 9.5/10.0}{2011 -- 2012}
   \resumeSubHeadingListEnd
+%----------------------------------------
 
 %-----------ACHIEVEMENTS-----------------
 \section{Achievements}
@@ -97,7 +97,7 @@
       \resumeItemListStart
         \resumeItem{Outcome}
           {Secured \textbf{4\textsuperscript{th}} position in the finals}
-        \resumeItem{About}
+        \resumeItem{Highlights}
           {Conducted by IIT Bombay, sponsored by \textbf{MHRD, India} through NMEICT. The finals was held at IIT-Bombay in which over \textbf{200+ teams} participated in a total of 4 themes}
       \resumeItemListEnd
 
@@ -107,97 +107,121 @@
       \resumeItemListStart
         \resumeItem{Outcome}
           {: Stood \textbf{3\textsuperscript{rd}} in the Case study and presentation.}
-        \resumeItem{About}{The main objective of the event is to do a thorough study of the problems faced by students at school-level.Several key elements used were Pareto-analysis, 6-sigma method Brainstorming, Questionnaires.Finally we give a detailed presentation at event venue in Madurai, Tamil Nadu where several renowned persons were there like: Mr. Anand Kumar (Super30 program founder), etc.}
+        \resumeItem{Highlights}{The main objective of the event is to do a thorough study of the problems faced by students at school-level.Several key elements used were Pareto-analysis, 6-sigma method Brainstorming, Questionnaires.Finally we give a detailed presentation at event venue in Madurai, Tamil Nadu where several renowned persons were there like: Mr. Anand Kumar (Super30 program founder), etc.}
       \resumeItemListEnd
-
   \resumeSubHeadingListEnd
-
-%--------Technical SKILLS------------
-\section{Technical Skills}
-  \resumeSubHeadingListStart
-    \item{\textbf{Languages}{: C/C++, Python, JavaScript, Latex, Verilog/VHDL}
-      \hfill
-      \item{\textbf{Technologies}{: OpenCV, ROS, MATLAB, Perception \& Control}}
-    }
-  \resumeSubHeadingListEnd
+%------------------------------------
 
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-        \resumeItem{Chaser Drone}{(Dec, 2017 - Mar, 2018)e-Yantra Robotics Competition-17}
-        \resumeItem{Project2}{(Dec, 2017 - Mar, 2018)}
-        \resumeItem{Project3}{(Dec, 2017 - Mar, 2018)}
-        \resumeItem{Project4}{(Dec, 2017 - Mar, 2018)}
-        \resumeItem{Project5}{(Dec, 2017 - Mar, 2018)}
-        \resumeItem{Hand Detection and Tracking}{(Dec, 2017 - Mar, 2018)This aims to detect human hand and track its motion.I further extended it to simulate keyboard/mouse events using hand motion, i.e.,}
+        \resumeItem{Chaser Drone}{(Dec, 2017 - Mar, 2018) Worked on ROS, i.e., Robotic Operating System to interface with a drone using python script. Programmed the drone using feedback controlled PID algorithm. Drone had to land on a Spark-V bot(running on ground) that was programmed using Embedded C.}
+        \resumeItem{Auto-tuning of controller for Drones}{(Jul, 2018 - Dec, 2018) As part of internship task, interfaced game-controller as drone controller using pyGame library, and prepared an Auto Calibrating python script for controller using PID loop. The code also has the capability to hold drone position and switch between two drones.}
+        \resumeItem{Haar Cascade Face Detection and Tracking}{(Aug, 2018 - Nov, 2018) Using Haar Cascade,  created a face detection and recognition scripting code. I further extended it to hand gesture recognition, using pre-trained neural network, to simulate keyboard/mouse events using hand motion.}
+        \resumeItem{Digital Passport Recognition}{(Jun, 2017 - Oct, 2018) As part of the internship project, I augmented a MATLAB code to scan and analyze passport details using MATLAB-Image Processing toolbox.}
+        \resumeItem{Mini-CNC Plotter}{(Jun, 2017 - Aug, 2018) Augmented a DIY 3-axes motorized mini-CNC plotter using household waste. It was a Arduino based device to draw complex artwork as vector gcode image. A python script to sends motion data to Arduino which actuates motors to print.}
+        \resumeItem{9X9 Sudoku solver using Image Processing}{(Jan, 2017 - Feb, 2017) Laptop camera is used to get input of unsolved-Sudoku image. Then by image-to-text recognition using convolution, an array of Sudoku is prepared. Sudoku algorithm fill-in the missing places and solves the Sudoku and displays the final solution array.}
+        \resumeItem{Navigate a terrain}{(Dec, 2016 - Mar, 2017) Developed a robust python code with the help of openCV library to analyze and solve different mazes, like: square and theta maze, using a Dijkstra's algorithm. A map-graph for each cell is generated using a particular algorithm and then shortest path is generated and highlighted.}
   \resumeSubHeadingListEnd
+%------------------------------------ 
+
+%--------Technical SKILLS------------
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \item{\textbf{Languages}{: C/C++, Python, JavaScript, Latex, Verilog/VHDL}}
+      \hfill
+      \item{\textbf{Technologies}{: OpenCV, ROS, MATLAB, OrCAD, Perception \& Control, Linux}}
+  \resumeSubHeadingListEnd
+%------------------------------------  
+  
 \newpage
-%-----------EXPERIENCE-----------------
+
+%-----------EXPERIENCE---------------
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Bot-Labs Dynamics, IIT Delhi}{Delhi, India}
       {Embedded Systems Intern}{(6 months) Jul, 2018 - Dec, 2018}
       \resumeItemListStart
-        \resumeItem{Tensorflow}
-          {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models.}
-        \resumeItem{Apache Beam}
-          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
+        \resumeItem{Outcome}
+          {Written a code to auto-tune game-controller for Drones}
+        \resumeItem{Highlights}
+          {Interfaced game-controller as drone controller using pyGame library, and prepared an Auto Calibrating python script for controller using PID loop. The code also has the capability to hold drone position and switch between two drones.}
       \resumeItemListEnd
 
     \resumeSubheading
       {National Informatics Centre (NIC)}{New Delhi, India}
       {Data Analyst Trainee/Intern}{(6 weeks) Jun, 2018 - Jul, 2018}
       \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
+        \resumeItem{Outcome}
+          {Took on the challenge to write an algorithm for analysis of server data and plot the statistics }
+        \resumeItem{Highlights}
+          {Spearheaded a team of 8 students to develop a python script to analyze server data and tabulate \& plot statistics using several python libraries like numpy, pandas, matplotlib.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Feeding India}{New Delhi, India}
-      {Volunteer}{Feb, 2018 - Aug, 2018}
+      {Feeding India (NGO)}{New Delhi, India}
+      {Volunteer}{(6 months) Feb, 2018 - Aug, 2018}
       \resumeItemListStart
-        \resumeItem{Research Assistant - Machine Learning}
-          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
-        \resumeItem{Teaching Assistant - Computational Investing}
-          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
+        \resumeItem{Outcome}
+          {Took on the challenge of providing food to the needy.}
+        \resumeItem{Highlights}
+          {Organized several volunteering campaigns to distribute food among children throughout the streets and towns.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {MATLAB Helper}{Haryana, India}
+      {MATLAB developer/intern}{(4 months) Jun, 2017 - Oct, 2017}
+      \resumeItemListStart
+        \resumeItem{Outcome}
+          {Gained instrumental knowledge in MATLAB-Image processing toolbox and contributed to the Digital Passport Recognition.}
+        \resumeItem{Highlights}
+          {Augmented a MATLAB code to scan and analyze passport details using Image Processing. The code analyses different sections of the passport to identify name, passport number, etc.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
+%-----------------------------------------
 
 %-----------CERTIFICATION-----------------
 \section{Certification}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Coursera}{\href{https://coursera.org}{[link]}}
-      {Robotics - University of Pennsylvania}{}
+      {Robotics - University of Pennsylvania}{\href{https://coursera.org}{[link]}}
+      {Coursera.org}{}
       \resumeItemListStart
-        \resumeItem{}
-          {Aerial Robotics, Computational motion planning, Mobility, Perception, Estimation and Learning, Capstone.
-          use mathematical and programming methods that researchers use in robotics labs}
-        \resumeItem{}{}
-          {Basics, Data Structures, Access Web Data.}
+        \resumeItem{Highlights}
+          {This course covered key concepts like Aerial Robotics, Computational motion planning, Mobility, Perception, Estimation and Learning.
+          This guided me to the mathematical and programming methods that researchers use in robotics labs}
       \resumeItemListEnd
+    
     \resumeSubheading
-      {Coursera}{\href{https://www.coursera.org/account/accomplishments/certificate/SWCNNDVNW9Y9}{[link]}}
-      {Python - University of Michigan}{}
+      {Python - University of Michigan}{\href{https://www.coursera.org/account/accomplishments/certificate/SWCNNDVNW9Y9}{[link]}}
+      {Coursera.org}{}
       \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
+        \resumeItem{Highlight}
+          {This course instituted Basics, Data Structures, Access Web Data in python.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
-%-------------------------------------------
+%--------------------------------------
 
 %-----------Coursework-----------------
 \section{Coursework}
   \resumeSubHeadingListStart
       \resumeItemListStart
-        \item{Digital Logic Circuits}
-        \item{Control Systems, Data Structures, Engineering Mathematics, Network analysis and synthesis, Electronic Circuits, Microprocessors, Principles of Communication, Signals and System, Integrated Circuits, Digital Signal Processing, VLSI, Digital design using Verilog, VHDL}
+        \resumeItem{Core subjects}{Digital Logic Circuits, Control Systems, Data Structures, Engineering Mathematics, Network analysis and synthesis, Electronic Circuits, Microprocessors, Principles of Communication, Signals and System, Integrated Circuits, Digital Signal Processing, VLSI, Digital design using Verilog, VHDL}
+        \resumeItem{Others}{MATLAB+Simulink, OrCAD, PCB designing}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
-    
+%--------------------------------------
+
+%-----------Other Information-----------------
+\section{Other Information}
+  \resumeSubHeadingListStart
+      \resumeItemListStart
+        \resumeItem{Hobbies}{Skate-boarding, badminton, guitar \& music}
+        \resumeItem{Soft skills}{Communication, Time Management, Decision Making, Problem Solving.}
+        \resumeItem{Language}{English, Hindi}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+%--------------------------------------
+
 \end{document}
